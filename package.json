@@ -1,11 +1,11 @@
 {
   "name": "wscom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Websocket to Serial Port proxy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "patch-release": "npm version patch && npm publish && git push --follow-tags" 
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
   },
   "repository": {
     "type": "git",
