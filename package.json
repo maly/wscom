@@ -16,6 +16,9 @@
     "node": ">=5.10",
     "npm": "1"
   },
+  "bin": {
+  	"wscom": "./index.js"
+  },
   "license": "MIT",
   "dependencies": {
     "serialport": "^6.0.0-beta2",
