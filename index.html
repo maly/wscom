@@ -1,0 +1,30 @@
+<script>
+
+var ports=null;
+var myConn = null;
+
+var getPorts = function(cb) {
+
+	var connection = new WebSocket('ws://localhost:1311/_list');
+
+	connection.onmessage = function (e) {
+  		console.log('Server: ' + e.data);
+  		ports = JSON.parse(e.data);
+  		connection.close();g
+  		if (cb) cb(ports);
+	};
+}
+
+var conn = function(cb) {
+    myConn = new WebSocket('ws://localhost:1311/null/COM23/8-N-1/9600');
+
+	myConn.onmessage = function (e) {
+		var data = JSON.parse(e.data);
+		if (data[0]==0) return
+  		console.log(data,String.fromCharCode(e.data));
+  		//if (cb) cb(ports);
+	};
+
+}
+
+</script>
