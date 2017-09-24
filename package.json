@@ -1,6 +1,6 @@
 {
   "name": "wscom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Websocket to Serial Port proxy",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "npm": "1"
   },
   "bin": {
-  	"wscom": "./index.js"
+    "wscom": "./index.js"
   },
   "license": "MIT",
   "dependencies": {
