@@ -1,4 +1,4 @@
-# ASM80.js
+# WSCOM serial proxy
 
 [![NPM Version](http://img.shields.io/npm/v/wscom.svg?style=flat)](https://www.npmjs.org/package/wscom)
 [![NPM Downloads](https://img.shields.io/npm/dm/wscom.svg?style=flat)](https://www.npmjs.org/package/wscom)
