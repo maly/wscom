@@ -58,3 +58,5 @@ wss.on('connection', function connection(ws, req) {
 
   //ws.send('something');
 });
+
+console.log("Server started on ws://localhost:1311")
