@@ -11,14 +11,14 @@
 
   The prerequisite you have to meet is a functional Node.js environment. It is not complicated, it exists for all major platforms, and you can download it here: [nodejs.org](http://nodejs.org/). During the installation, package manager called NPM is installed too.
 
-  NPM is used for install the packages and libraries. To install ASM80 itself just run a command prompt and type:
+  NPM is used for install the packages and libraries. To install WSCOM itself just run a command prompt and type:
 
   $ npm install wscom -g
 
 ## Usage
 
   `$ wscom`
-  
+
 ## Support me
 
   [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PZRPU5M94NLJA)

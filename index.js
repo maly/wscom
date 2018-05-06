@@ -17,7 +17,7 @@ wss.on('connection', function(ws, req) {
   if (req.url==="/_list") {
     SerialPort.list()
       .then(function(ports){
-        console.log(ports);
+        //console.log(ports);
         var pp = ports.map(function(port){if (port.comName.indexOf("/")<0) port.comName="/null/"+port.comName; return port})
         ws.send(JSON.stringify(pp))
       })
@@ -60,6 +60,12 @@ wss.on('connection', function(ws, req) {
     console.log('close: %s', message);
     port.close(function(){port=null;})
   });
+
+  ws.on('error', function (message) {
+    console.log('error: %s', message);
+    port.close(function(){port=null;})
+  });
+
 
   //ws.send('something');
 });
