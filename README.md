@@ -15,6 +15,10 @@
 
   $ npm install wscom -g
 
+### Precompiled binary packages
+
+  You can download directly precompiled binary packages for Windows and MacOS. They does not require Node.js installation. Just download the latest ZIP or TAR.GZ from [this page](https://github.com/maly/wscom/releases), unzip it and look into the "binaries" folder. There are Windows and macOS versions, both of them needs two files. serialport library and the wscom itself.
+
 ## Usage
 
   `$ wscom`
